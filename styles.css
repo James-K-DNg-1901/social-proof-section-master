@@ -1,0 +1,209 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: left;
+}
+
+span {
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 70rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-pattern-card {
+    width: 70rem;
+    height: 20rem;
+    display: flex;
+}
+
+.upper-col-1 {
+    width: 25rem;
+}
+
+.title {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+    color: hsl(303, 10%, 53%);
+}
+
+.upper-col-2 {
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.rate-box {
+    background-color: hsl(300, 24%, 96%);
+    width: 28rem ;
+    height: 3.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3em;
+}
+
+.star {
+    width: 6rem;
+    height: 1rem;
+    background: url(images/icon-star.svg);
+    background-repeat: space ;
+    margin-left: 2rem;
+}
+
+.line-1 {
+    margin-left: 12em;
+}
+
+.line-2 {
+    margin-left: 14.5em;
+}
+
+.line-3 {
+    margin-left: 17.1em;
+}
+
+.bottom-pattern-card {
+    width: 70rem;
+    height: 17.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.bottom-box {
+    background-color: hsl(300, 43%, 22%);
+    width: 22rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding: 1.8rem;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-img {
+    border-radius: 25px;
+}
+
+.name {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.rank {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsl(333, 80%, 67%);
+    margin: 0;
+}
+
+.detail {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 1.05em;
+    line-height: 1.5;
+    color: hsl(0, 0%, 100%);
+}
+
+.col-1 {
+    margin-top: 0;
+}
+
+.col-2 {
+    margin-top: 2rem;
+}
+
+.col-3 {
+    margin-top: 4rem;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        text-align: center;
+    }
+
+    .container {
+        width: 22rem;
+        height: 100rem;
+        gap: 2rem;
+    }
+
+    .upper-pattern-card{
+        width: 22rem;
+        height: 40rem;
+        flex-wrap: wrap;
+    }
+
+    .bottom-pattern-card {
+        width: 22rem;
+        height: 50rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .upper-col-2 {
+        justify-content: start;
+    }
+
+    .title {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .rate-box {
+        width: 22rem;
+        height: 5rem;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .star {
+        margin: 0;
+    }
+
+    .profile-box {
+        margin: 0.7rem auto auto 1rem;     
+    }
+
+    .detail {
+        margin-top: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .bottom-box {
+        width: 22rem;
+        height: 13rem;
+    }
+}
