@@ -88,7 +88,7 @@ span {
 
 .bottom-pattern-card {
     width: 70rem;
-    height: 17.5rem;
+    height: 19.5rem;
     display: flex;
     gap: 2rem;
 }
@@ -96,7 +96,7 @@ span {
 .bottom-box {
     background-color: hsl(300, 43%, 22%);
     width: 22rem;
-    height: 10rem;
+    height: 12rem;
     border-radius: 10px;
     padding: 1.8rem;
 }
